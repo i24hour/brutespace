@@ -68,7 +68,7 @@ form.addEventListener("submit", (event) => {
     return;
   }
 
-  const subject = "Rootspace early access";
+  const subject = "Brutepace early access";
   const body = [`Email: ${email}`, agent ? `Agent: ${agent}` : ""]
     .filter(Boolean)
     .join("\n");
