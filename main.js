@@ -68,11 +68,11 @@ form.addEventListener("submit", (event) => {
     return;
   }
 
-  const subject = "Brutepace early access";
+  const subject = "Brutespace early access";
   const body = [`Email: ${email}`, agent ? `Agent: ${agent}` : ""]
     .filter(Boolean)
     .join("\n");
-  const href = `mailto:hello@rootspace.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  const href = `mailto:Kaishava@rootspace.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
   document.getElementById("thanks-email").textContent = email;
   const mailLink = document.getElementById("mailto-link");
