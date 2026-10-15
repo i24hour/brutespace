@@ -68,7 +68,7 @@ form.addEventListener("submit", (event) => {
     return;
   }
 
-  const subject = "Brutespace early access";
+  const subject = "Brutepace early access";
   const body = [`Email: ${email}`, agent ? `Agent: ${agent}` : ""]
     .filter(Boolean)
     .join("\n");
